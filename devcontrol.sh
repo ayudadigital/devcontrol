@@ -215,7 +215,7 @@ function showUsage () {
 
 # Main
 echo_debug "begin"
-echo_debug "Devcontrol (c) Teecke 2019"
+echo_debug "Devcontrol (c) TIC para Bien 2019-2020"
 startup
 delegatedStartup
 loadActionList
