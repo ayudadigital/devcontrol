@@ -20,16 +20,16 @@ function hello-world() {
     # Task choosing
     case $1 in
         brief)
-            showBriefMessage ${FUNCNAME[0]} "$briefMessage"
+            showBriefMessage "${FUNCNAME[0]}" "$briefMessage"
             ;;
         help)
-            showHelpMessage ${FUNCNAME[0]} "$helpMessage"
+            showHelpMessage "${FUNCNAME[0]}" "$helpMessage"
             ;;
         exec)
             echo "Hello World!"
             ;;
         *)
-            showNotImplemtedMessage $1 ${FUNCNAME[0]}
+            showNotImplemtedMessage "$1" "${FUNCNAME[0]}"
             return 1
     esac
 }
