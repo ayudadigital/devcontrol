@@ -17,7 +17,7 @@ The `devcontrol` script can help by calling your set of scripts that automate th
 Open a console and execute:
 
 ```shell
-curl https://raw.githubusercontent.com/teecke/devcontrol/master/install.sh | sudo bash
+curl https://raw.githubusercontent.com/tpbtools/devcontrol/master/install.sh | sudo bash
 ```
 
 The `devcontrol` script will be installed in your `/usr/local/bin` directory.
@@ -131,7 +131,7 @@ Execute the script with `DC_DEBUG=1 devcontrol status` to help trace errors.
 ```console
 $ DC_DEBUG=1 bin/devcontrol.sh
 >>>> DEBUG >>>>> 2019-08-24 19:32:31 devcontrol: begin
->>>> DEBUG >>>>> 2019-08-24 19:32:31 devcontrol: Devcontrol (c) Teecke 2019
+>>>> DEBUG >>>>> 2019-08-24 19:32:31 devcontrol: Devcontrol (c) TIC para Bien 2019-2020
 >>>> DEBUG >>>>> 2019-08-24 19:32:31 devcontrol: Startup
 >>>> DEBUG >>>>> 2019-08-24 19:32:31 devcontrol: Execute delegate startup with 'devcontrol/global/startup.sh' script
 Devcontrol Docker Example (c) 2019
