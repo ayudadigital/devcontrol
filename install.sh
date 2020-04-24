@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Init
-SOURCE="https://raw.githubusercontent.com/tpbtools/devcontrol/master/devcontrol.sh"
+SOURCE="https://raw.githubusercontent.com/ayudadigital/devcontrol/master/devcontrol.sh"
 TARGET="/usr/local/bin/devcontrol"
 
 # Check
