@@ -1,5 +1,22 @@
 # Changelog
 
+## v2.0.1 (2021-03-28)
+
+### Changes
+
+#### Build
+
+* Update Auto Release Log adding v2.0.1 info with JPL ([d5f6c93](https://github.com/ayudadigital/devcontrol/commit/d5f6c93))
+* Use jpl v6.2.0 ([5584514](https://github.com/ayudadigital/devcontrol/commit/5584514))
+
+#### Docs
+
+* Generate v2.0.0 changelog with JPL ([3f3d26a](https://github.com/ayudadigital/devcontrol/commit/3f3d26a))
+
+### Authors
+
+* Pedro Amador
+
 ## v2.0.0 (2020-04-24)
 
 ### Changes
